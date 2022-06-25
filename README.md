@@ -4,8 +4,8 @@ Starter untuk menjalankan web framework [Fastify](https://www.fastify.io/) pada 
 
 ## Demo
 
-- <https://fastify-js.vercel.app/api/hi>
-- <https://fastify-js.vercel.app/api/ping>
+- <https://fastify-js.vercel.app>
+- <https://fastify-js.vercel.app/hi>
 
 ## Deploy your own
 
