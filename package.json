@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "zakiego",
+  "repository": "github.com/zakiego/go-gin-vercel",
+  "scripts": {
+    "setup": "yarn vercel login && yarn vercel link",
+    "start": "yarn vercel dev",
+    "dev": "yarn start",
+    "deploy": "yarn vercel",
+    "deploy:prod": "yarn vercel --prod"
+  },
   "dependencies": {
     "dotenv": "^16.0.1",
-    "fastify": "^4.1.0"
+    "fastify": "^4.1.0",
+    "vercel": "^25.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
